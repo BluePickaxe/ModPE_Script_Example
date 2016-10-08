@@ -26,6 +26,7 @@ preventDefault();
 
 function procCmd(cmd)
 {
+var bcount=0;
 var startX=Math.min(pos1[0], pos2[0]);
 var endX=Math.max(pos1[0], pos2[0]);
 var startY=Math.min(pos1[1], pos2[1]);
@@ -43,9 +44,11 @@ for(var y=startY;y <= endY;y++)
 for(var z=startZ;z <= endZ;z++)
 {
 setTile(x, y, z, Data[1], Data[2]);
+
+bcount++;
 }
 }
 }
-clientMessage("블럭이 변경되었습니다. "+Data[1]+": "+Data[2]);
+clientMessage(bcount+"Block changed. "+Data[1]+": "+Data[2]);
 }
 }
