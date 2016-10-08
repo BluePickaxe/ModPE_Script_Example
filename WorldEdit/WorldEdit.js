@@ -49,6 +49,6 @@ bcount++;
 }
 }
 }
-clientMessage(bcount+"Block changed. "+Data[1]+": "+Data[2]);
+clientMessage(bcount+" Block changed. ");
 }
 }
