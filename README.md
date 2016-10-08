@@ -2,10 +2,9 @@
 
 -------------------------------
 
-**Author: BluePickaxe[^bluepickaxe]** <br />
+**Author: BluePickaxe** <br />
 **Description: Unofficial ModPE Script Examples.**
 
 ###**Examples List**
 - WorldEdit
 - coming soon...
-[^bluepickaxe]: I am normal minecraft player
