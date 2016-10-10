@@ -44,11 +44,10 @@ for(var y=startY;y <= endY;y++)
 for(var z=startZ;z <= endZ;z++)
 {
 setTile(x, y, z, Data[1], Data[2]);
-
 bcount++;
 }
 }
 }
-clientMessage(bcount+" Block changed.");
+clientMessage(bcount+" Blocks changed.");
 }
 }
